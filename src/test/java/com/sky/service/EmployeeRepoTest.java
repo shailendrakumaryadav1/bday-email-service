@@ -7,21 +7,12 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;
 
-import models.EmailAddress;
 import models.Employee;
-import models.Message;
-import services.BirthdayGreetingService;
-import services.BirthdayGreetingServiceImpl;
-import services.EmailSender;
 import util.EmployeeReader;
 import util.EmployeeRepo;
 import util.EmployeeRepoImpl;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.Assert.*;
-import static org.mockito.BDDMockito.given;
-import static org.mockito.Mockito.spy;
-import static org.mockito.Mockito.verify;
 
 /**
  * Created by SKY on 12/14/2017.

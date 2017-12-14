@@ -1,8 +1,6 @@
 package com.sky.service;
 
 import java.io.File;
-import java.io.IOException;
-import java.util.Scanner;
 
 import services.BirthdayGreetingService;
 import services.BirthdayGreetingServiceImpl;
