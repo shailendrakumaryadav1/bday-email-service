@@ -1,0 +1,4 @@
+last_name, first_name, date_of_birth, email
+Lida, Ray, 2017/12/14, lida.ray@foobar.com
+Swami, Kumar, 2017/12/14, swami.kumar@foobar.com
+Mervin, Ng, 2013/05/02, mervin.ng@foobar.com
