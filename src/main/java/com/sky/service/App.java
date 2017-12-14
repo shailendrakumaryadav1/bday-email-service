@@ -1,6 +1,8 @@
 package com.sky.service;
 
 import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
 
 import services.BirthdayGreetingService;
 import services.BirthdayGreetingServiceImpl;
@@ -19,10 +21,8 @@ public class App
     {
         System.out.println( "Hello World!" );
 
-		File file = new File("FILE PATH");
-
+		File file = new File("file/employees.txt");
 		EmployeeReader employeeReader = new EmployeeReader();
-
 		EmployeeRepo employeeRepo = new EmployeeRepoImpl(file, employeeReader);
 		EmailSender emailSender = new EmailSender();
 		BirthdayGreetingService birthdayGreetingService = new BirthdayGreetingServiceImpl(employeeRepo, emailSender);
