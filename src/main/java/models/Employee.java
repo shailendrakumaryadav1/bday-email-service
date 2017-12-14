@@ -1,6 +1,6 @@
 package models;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 /**
  * Created by SKY on 12/14/2017.
@@ -10,9 +10,9 @@ public class Employee {
 	private String firstName;
 	private String lastName;
 	private String email;
-	private Date dateOfBirth;
+	private LocalDate dateOfBirth;
 
-	public Employee(String firstName, String lastName, String email, Date dateOfBirth) {
+	public Employee(String firstName, String lastName, String email, LocalDate dateOfBirth) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
@@ -31,7 +31,7 @@ public class Employee {
 		return email;
 	}
 
-	public Date getDateOfBirth() {
+	public LocalDate getDateOfBirth() {
 		return dateOfBirth;
 	}
 
